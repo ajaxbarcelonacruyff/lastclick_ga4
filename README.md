@@ -1,4 +1,4 @@
-# Calculating Last-Click Sales and Transactions in BigQuery for GA4  
+# Calculate GA4 Last-Click Revenue and Transactions in BigQuery
 
 It is common to calculate the number of sessions, purchases, and revenue by traffic source in GA4. However, if a user visits a site from a different source within the same session before making a purchase, the initial source becomes invalid. This can result in inaccurate tracking, particularly for e-commerce sites with frequent visits or long session timeouts.  
 
