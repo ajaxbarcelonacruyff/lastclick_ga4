@@ -32,7 +32,7 @@ To overcome these limitations, you can create a query in BigQuery that adds the 
 With this approach, if a user enters the site from an external source during a session, the traffic source (e.g., `last_click_source`) will be updated accordingly.  
 
 For example, the result will look like this:
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3939399/3b885dc2-f1b2-7796-7eac-3eca9aff1c60.png)
+![last_click_ga4_xx.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3939399/022839ef-c17c-4748-921d-c30aa3b405a5.png)
 
 
 | user_id | session_id | event_timestamp       | event_name  | traffic_source      | session_source      |
